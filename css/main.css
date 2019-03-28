@@ -1,31 +1,63 @@
 html {
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.logo {
-  max-width: 200px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 header {
-  background-color: #ddd;
+  background-color: #ddd;
 }
 
-.sidebar {
-  background-color: #efefef;
+.logo {
+  max-width: 200px;
 }
 
-.white {
-  background-color: #fff;
+.nearest {
+  background-color: #efefef;
 }
 
-table {
-  min-width: 45em;
+.playgrounds {
+  background-color: #fff;
+}
+
+.mover {
+  left: .25em;
+}
+
+.id {
+  width: 5.5em;
+}
+
+.type {
+  width: 5.5em;
+}
+
+.group {
+  width: 5.8em;
+}
+
+.swings {
+  width: 5.5em;
+}
+
+.slides {
+  width: 5.5em;
+}
+
+.seesaws {
+  width: 5.5em;
+}
+
+.sandboxes {
+  width: 5.5em;
+}
+
+.playhouses {
+  width: 5.5em;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .table-wrapper {
-    overflow: visible;
-  }
+  .table-wrapper {
+    overflow: visible;
+  }
 
 }
